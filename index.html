@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Css vaiables</title>
+    <script src="js/script.js" defer></script>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h2 id="left">Change space and blur of image</h2>
+      <div class="command">
+        <div class="space text">
+          Scale image
+          <button class="btn">Zoom Out</button>
+          <button class="btn">Zoom in</button>
+        </div>
+        <div class="space text">
+          Change color
+          <input type="color" id="colorpicker" value="#17177e" />
+        </div>
+        <div class="blur text">
+          Blur
+          <button class="btn">increase</button>
+          <button class="btn">decrease</button>
+        </div>
+      </div>
+
+      <div class="main">
+        <img src="./drum.jpg" class="image" />
+      </div>
+    </div>
+  </body>
+</html>
